@@ -1,0 +1,25 @@
+<!-- Javascript section for template -->
+
+<script type="text/javascript">
+    $(document).ready(function() {
+     $("a#atv_btn").colorbox({ width: "60%", inline: true, href:"#aboutthevigil"}); 
+     $("a#ptc_btn").colorbox({ width: "60%", inline: true, href:"#participateinavigil"}); 
+     $("a#sap_btn").colorbox({ width: "60%", inline: true, href:"#supportaparticipant"});
+     $("a#openpopup").colorbox({inline:true, href: "#popup", width:"60%",});
+     $("a#openpopup2").colorbox({inline:true, href: "#popup2", width:"60%",});
+     $("a#openpopup3").colorbox({inline:true, href: "#popup3", width:"60%",});
+     $('#events h3').addClass("dontend");
+     $('#events').columnize({width:200});
+    })
+  </script>
+
+<!-- HTML section for content -->
+  
+<p><a id="openpopup2" class="button" href="popup2">Event Details</a></p>
+<div class="popupoverlay" style="display: none;">
+<div id="popup2">More Event Content</div>
+</div>
+<p><a id="openpopup2" class="button" href="popup2">Event Details</a></p>
+<div class="popupoverlay" style="display: none;">
+<div id="popup2">More Event Content</div>
+</div>
